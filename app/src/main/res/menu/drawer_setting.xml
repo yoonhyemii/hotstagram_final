@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/notification"
+                android:icon="@drawable/noti"
+                android:title="알림"
+                />
+            <item
+                android:id="@+id/information"
+                android:icon="@drawable/info"
+                android:title="정보"
+                />
+            <item
+                android:id="@+id/advertising"
+                android:icon="@drawable/adve"
+                android:title="광고"
+                />
+        </menu>
+    </item>
+    <item android:title="setting">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="로그아웃"
+                />
+        </menu>
+    </item>
+</menu>

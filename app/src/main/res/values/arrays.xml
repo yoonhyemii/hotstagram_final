@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="user_profile_photo">
+
+        <item >새 프로필 사진</item>
+        <item >프로필 사진 삭제</item>
+
+    </string-array>
+
+    <string-array name="home_post">
+
+        <item >삭제</item>
+        <item >수정</item>
+
+    </string-array>
+</resources>

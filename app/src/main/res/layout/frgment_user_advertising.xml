@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_push"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:text="광고 활동"
+        android:paddingLeft="15dp"
+        android:background="@drawable/button_event_img"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_privacy"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:text="광고 정보"
+        android:paddingLeft="15dp"
+        android:background="@drawable/button_event_img"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_push" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
